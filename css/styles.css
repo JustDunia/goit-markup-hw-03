@@ -98,7 +98,7 @@ body {
 
 /* heading section */
 
-.heading-section {
+.heading {
     background-color: var(--background-dark);
     text-align: center;
 }
@@ -124,7 +124,7 @@ body {
 
 /* lorem section */
 
-.lorem-section {
+.lorem {
     background-color: var(--white);
 }
 
@@ -144,7 +144,7 @@ body {
 
 /* aboutus section */
 
-.aboutus-section {
+.aboutus {
     background-color: var(--white);
 }
 
@@ -154,7 +154,7 @@ body {
 
 /* team section */
 
-.team-section {
+.team {
     background-color: var(--background-grey);
 }
 
@@ -178,7 +178,7 @@ body {
 
 /* PORTFOLIO */
 
-.main {
+.portfolio {
     background-color: var(--white);
 }
 
