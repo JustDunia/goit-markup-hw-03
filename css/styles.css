@@ -113,13 +113,26 @@ ul {
   background-color: var(--background-dark);
 }
 
+.footer .container {
+  padding: 60px 15px;
+}
+
 .footer .logo {
   color: var(--white);
 }
 
 .address {
+  margin-top: 20px;
   font-style: normal;
   line-height: 1.71;
+}
+
+.address p {
+  margin-bottom: 9px;
+}
+
+.address p:last-child {
+  margin-bottom: 0;
 }
 
 .address-loc {
@@ -138,6 +151,7 @@ ul {
 /* AGENCJA */
 
 .section-title {
+  margin-bottom: 50px;
   font-size: 36px;
   text-align: center;
 }
@@ -186,10 +200,17 @@ ul {
 /* lorem section */
 
 .lorem {
+  padding-bottom: 0;
   background-color: var(--white);
 }
 
+.lorem-items {
+  display: flex;
+  gap: 30px;
+}
+
 .lorem-title {
+  margin-bottom: 10px;
   text-transform: uppercase;
   font-size: 14px;
 }
@@ -205,17 +226,36 @@ ul {
   background-color: var(--white);
 }
 
+.aboutus-items {
+  display: flex;
+  gap: 30px;
+}
+
 /* team section */
 
 .team {
   background-color: var(--background-grey);
 }
 
+.team-items {
+  display: flex;
+  gap: 30px;
+}
+
 .team-figure {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
   background-color: var(--white);
 }
 
+.team-text {
+  padding: 30px 0;
+  text-align: center;
+}
+
 .team-name {
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
 }
