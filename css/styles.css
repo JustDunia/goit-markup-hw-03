@@ -43,8 +43,6 @@ ul {
 .team-items,
 .portfolio-items {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
   gap: 30px;
 }
 
@@ -290,6 +288,11 @@ ul {
 .filter-btn:focus {
   background-color: var(--theme-color);
   color: var(--white);
+}
+
+.portfolio-items {
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .portfolio-img {
