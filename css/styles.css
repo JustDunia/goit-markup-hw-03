@@ -38,6 +38,16 @@ ul {
   padding: 0 15px;
 }
 
+.lorem-items,
+.aboutus-items,
+.team-items,
+.portfolio-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
 /* header */
 
 .header {
@@ -206,11 +216,6 @@ ul {
   background-color: var(--white);
 }
 
-.lorem-items {
-  display: flex;
-  gap: 30px;
-}
-
 .lorem-title {
   margin-bottom: 10px;
   text-transform: uppercase;
@@ -228,20 +233,10 @@ ul {
   background-color: var(--white);
 }
 
-.aboutus-items {
-  display: flex;
-  gap: 30px;
-}
-
 /* team section */
 
 .team {
   background-color: var(--background-grey);
-}
-
-.team-items {
-  display: flex;
-  gap: 30px;
 }
 
 .team-figure {
@@ -295,13 +290,6 @@ ul {
 .filter-btn:focus {
   background-color: var(--theme-color);
   color: var(--white);
-}
-
-.portfolio-items {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 30px;
 }
 
 .portfolio-img {
