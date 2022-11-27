@@ -67,18 +67,15 @@ ul {
 }
 
 .header-left-side {
-  max-width: 492px;
-  width: 100%;
+  flex-basis: 492px;
 }
 
 .nav {
-  max-width: 254px;
-  width: 100%;
+  flex-basis: 254px;
 }
 
 .contact-box {
-  max-width: 295px;
-  width: 100%;
+  flex-basis: 295px;
 }
 
 .header a,
@@ -137,12 +134,8 @@ ul {
   line-height: 1.71;
 }
 
-.address p {
+.address p:not(:last-child) {
   margin-bottom: 9px;
-}
-
-.address p:last-child {
-  margin-bottom: 0;
 }
 
 .address-loc {
