@@ -49,6 +49,7 @@ ul {
 /* header */
 
 .header {
+  padding: 25px 0;
   border-bottom: 1px solid var(--header-border-color);
   background-color: var(--white);
 }
@@ -62,20 +63,16 @@ ul {
   align-items: center;
 }
 
-.header .container {
-  height: 80px;
-}
-
 .header-left-side {
-  flex-basis: 492px;
+  gap: 0 93px;
 }
 
-.nav {
-  flex-basis: 254px;
+.nav-items {
+  gap: 0 46px;
 }
 
-.contact-box {
-  flex-basis: 295px;
+.contact-items {
+  gap: 0 50px;
 }
 
 .header a,
@@ -162,13 +159,12 @@ ul {
 /* heading section */
 
 .heading {
-  height: 600px;
+  padding: 200px 0;
   text-align: center;
   background-color: var(--background-dark);
 }
 
 .heading .container {
-  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -263,7 +259,7 @@ ul {
   margin-bottom: 50px;
   display: flex;
   justify-content: center;
-  gap: 8px;
+  gap: 0 8px;
 }
 
 .filter-btn {
